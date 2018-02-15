@@ -1,4 +1,4 @@
-# Project Title
+# ESP HTML Compressor
 
 This Python script, minifies and converts HTML,CSS and Javascript files, to an char array of hex values. Which is to be stored in the ESP progmem.
 
