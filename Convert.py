@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#	 pip install requests
 import requests
 import os
 
@@ -6,7 +8,7 @@ output_dir = "HTML_minified"
 
 f_output = open("output_dir", "w")
 URL_minify_js   = 'https://javascript-minifier.com/raw' # Website to minify javascript
-URL_minify_html = 'http://html-minifier.com/raw'        # Website to minify html
+URL_minify_html = 'https://html-minifier.com/raw'        # Website to minify html
 URL_minify_css  = 'https://cssminifier.com/raw'         # Website to minify css
 
 def write_to_file(file, data, dir=""):
